@@ -1,0 +1,148 @@
+digraph dfd {
+  graph [fontname = "MS Gothic",
+  rankdir = LR];
+  node [fontname = "MS Gothic", style = "filled", fillcolor = cornsilk, color = firebrick];
+  edge [fontname = "MS Gothic"];
+
+  student [
+    label = "学生",
+    shape = box,
+    peripheries = 2
+  ];
+
+  teacher [
+    label = "教員",
+    shape = box,
+    peripheries = 2
+  ];
+
+
+  taskBase [
+    label = "{<id> B1 |<label> 課題\nデータテーブル}",
+    shape=record
+  ];
+
+  submitBase [
+    label = "{<id> B2 |<label> 提出\nデータテーブル}",
+    shape=record
+  ];
+
+  resultBase [
+    label = "{<id> B3 |<label> 採点結果\nデータテーブル}",
+    shape=record
+  ];
+
+  viewTask [
+    label = "<id> b1|<label> 課題一覧管理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  submit [
+    label = "<id> b2|<label> 課題提出処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ]; 
+
+  viewProg [
+    label = "<id> b3|<label> 提出物閲覧処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  resultProcess [
+    label = "<id> b4|<label> 標語変換処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ]
+
+  setTask [
+    label = "<id> b5|<label> 提出物設定処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+  
+  getTask [
+    label = "<id> b6|<label> 提出物圧縮処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  scoreTask [
+    label = "<id> b7|<label> 提出物採点処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  viewTask -> student[
+    label="課題一覧情報"
+  ];
+
+
+  taskBase -> viewTask[
+    label="課題一覧"
+  ];
+
+
+  student -> submit [
+    label = "ソースコード"
+  ];
+
+  submit -> submitBase [
+    label = "提出物"
+  ];
+
+  submitBase -> viewProg [
+    label = "提出物"
+  ];
+
+  viewProg -> student [
+    label = "閲覧結果"
+  ]
+
+  resultBase -> resultProcess[
+    label = "採点結果(数値)";
+  ];
+
+  resultProcess -> student[
+    label = "採点結果(評語)";
+  ]
+
+
+  teacher -> setTask[
+    label = "課題内容，締め切り日";
+  ];
+
+  setTask -> taskBase[
+    label = "課題情報";
+  ];
+
+  submitBase -> getTask[
+    label = "提出物";
+  ];
+
+  getTask -> teacher[
+    label = "圧縮データ";
+  ];
+
+  teacher -> scoreTask [
+    label = "採点情報\n(Excel or Web)";
+  ];
+
+  scoreTask -> resultBase [
+    label = "採点結果(数値)";
+  ];
+
+
+  {rank = max; student;}
+  {rank = min; teacher;}
+  {rank = same; viewTask; submit; getTask; viewProg; resultProcess;}
+  {rank = same; setTask; scoreTask;}
+}

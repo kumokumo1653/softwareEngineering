@@ -1,0 +1,93 @@
+digraph dfd {
+  nodesep = 1;
+  graph [fontname = "MS Gothic",
+  rankdir = LR];
+  node [fontname = "MS Gothic", style = "filled", fillcolor = cornsilk, color = firebrick];
+  edge [fontname = "MS Gothic"];
+
+  student [
+    label = "学生",
+    shape = box,
+    peripheries = 2
+  ];
+
+  teacher [
+    label = "教員",
+    shape = box,
+    peripheries = 2
+  ];
+
+  logInfo [
+    label = "{<id> A1 |<label> ログイン情報\nデータテーブル}",
+    shape=record,
+  ];
+
+
+  register [
+    label = "<id> a1|<label> アカウント登録処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  auth [
+    label = "<id> a2|<label> アカウント認証処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  change [
+    label = "<id> a3|<label> パスワード変更処理",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+  student -> register [
+    label = "ID,パスワード"
+  ];
+
+  teacher -> register [
+    label = "ID,パスワード"
+  ];
+
+  register -> logInfo [
+    label = "ID,パスワードのハッシュ"
+  ];
+
+  logInfo -> auth [
+    label = "ID,パスワードのハッシュ"
+  ];
+
+  student -> auth [
+    label = "ID,パスワード"
+  ];
+
+  auth -> student [
+    label = "認証結果"
+  ];
+
+  teacher -> auth [
+    label = "ID,パスワード"
+  ];
+
+  auth -> teacher [
+    label = "認証結果"
+  ];
+
+  student -> change[
+    label = "変更後パスワード";
+  ];
+
+  teacher -> change[
+    label = "変更後パスワード";
+  ];
+
+  change -> logInfo[
+    label = "パスワード";
+  ];
+
+  {rank = min; student;}
+  {rank = max; teacher;}
+  {rank = same; auth;register;change;}
+}

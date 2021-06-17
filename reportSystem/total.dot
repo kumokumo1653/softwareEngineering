@@ -1,0 +1,84 @@
+digraph dfd {
+  graph [fontname = "MS Gothic",
+  rankdir = LR];
+  node [fontname = "MS Gothic", style = "filled", fillcolor = cornsilk, color = firebrick];
+  edge [fontname = "MS Gothic"];
+
+  student [
+    label = "学生",
+    shape = box,
+    peripheries = 2
+  ];
+
+  teacher [
+    label = "教員",
+    shape = box,
+    peripheries = 2
+  ];
+
+  system [
+    label = "<id> 1|<label> プログラム提出\nシステム",
+    shape = record,
+    style = "rounded,filled",
+    fillcolor = cornsilk
+  ];
+
+  student -> system[
+    label = "ログイン情報";
+  ];
+
+  student -> system[
+    label = "変更後パスワード";
+  ];
+
+  system -> student[
+    label = "認証結果";
+  ];
+  
+  student -> system[
+    label = "ソースコード";
+  ];
+
+  system -> student[
+    label = "課題一覧情報";
+  ];
+
+
+  system -> student[
+    label = "採点結果(評語)";
+  ];
+
+  system -> student[
+    label = "レポート";
+  ];
+
+  teacher -> system[
+    label = "ログイン情報";
+  ];
+
+  teacher -> system[
+    label = "変更後パスワード";
+  ];
+
+  system -> teacher[
+    label = "認証結果";
+  ];
+
+  teacher -> system[
+    label = "課題情報";
+  ];
+
+  teacher -> system[
+    label = "採点結果\n(Excel or Web)";
+  ];
+
+  system -> teacher[
+    label = "圧縮データ";
+  ];
+
+
+
+
+
+
+}
