@@ -104,7 +104,7 @@ digraph dfd {
   ];
 
   viewProg -> student [
-    label = "閲覧結果"
+    label = "レポート"
   ]
 
   resultBase -> resultProcess[
@@ -117,7 +117,7 @@ digraph dfd {
 
 
   teacher -> setTask[
-    label = "課題内容，締め切り日";
+    label = "課題情報";
   ];
 
   setTask -> taskBase[
@@ -129,7 +129,7 @@ digraph dfd {
   ];
 
   getTask -> teacher[
-    label = "圧縮データ";
+    label = "提出データ(圧縮)";
   ];
 
   teacher -> scoreTask [

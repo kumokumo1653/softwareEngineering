@@ -44,11 +44,11 @@ digraph dfd {
     fillcolor = cornsilk
   ];
   student -> register [
-    label = "ID,パスワード"
+    label = "ログイン情報"
   ];
 
   teacher -> register [
-    label = "ID,パスワード"
+    label = "ログイン情報"
   ];
 
   register -> logInfo [
@@ -60,7 +60,7 @@ digraph dfd {
   ];
 
   student -> auth [
-    label = "ID,パスワード"
+    label = "ログイン情報"
   ];
 
   auth -> student [
@@ -68,7 +68,7 @@ digraph dfd {
   ];
 
   teacher -> auth [
-    label = "ID,パスワード"
+    label = "ログイン情報"
   ];
 
   auth -> teacher [

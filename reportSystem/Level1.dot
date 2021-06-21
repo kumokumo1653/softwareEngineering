@@ -75,11 +75,11 @@ digraph dfd {
   ];
 
   teacher -> system[
-    label = "採点結果\n(Excel or Web)";
+    label = "採点情報\n(Excel or Web)";
   ];
 
   system -> teacher[
-    label = "圧縮データ";
+    label = "提出データ(圧縮)";
   ];
 
   {rank = same; system; log;}
