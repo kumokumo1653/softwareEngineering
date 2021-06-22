@@ -103,11 +103,15 @@ digraph dfd {
     label = "提出物"
   ];
 
+  submitBase -> viewProg [
+    label = "提出物"
+  ];
+  
   viewProg -> student [
     label = "レポート"
   ]
 
-  resultBase -> resultProcess[
+  resultBase -> viewProg[
     label = "採点結果(数値)";
   ];
 
@@ -124,8 +128,8 @@ digraph dfd {
     label = "課題情報";
   ];
 
-  submitBase -> getTask[
-    label = "提出物";
+  resultBase -> getTask[
+    label = "採点結果(数値)";
   ];
 
   getTask -> teacher[
