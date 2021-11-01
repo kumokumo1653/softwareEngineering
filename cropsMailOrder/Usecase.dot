@@ -1,0 +1,16 @@
+@startuml
+:閲覧者: as user
+:購入者: as buyer
+:販売者: as vender
+
+rectangle common as c{
+    usecase "商品閲覧" as showgoods
+    usecase "商品検索" as searchgoods
+    usecase "農家検索" as searchfarmer
+    usecase "ログイン" as login
+}
+
+
+buyer --|> user
+vender --|> user
+@enduml
