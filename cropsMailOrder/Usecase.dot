@@ -2,15 +2,80 @@
 :閲覧者: as user
 :購入者: as buyer
 :販売者: as vender
+:クレジット決済システム: as creditSystem
+:コンビニ払いシステム: as conveniSystem
 
 rectangle common as c{
     usecase "商品閲覧" as showgoods
     usecase "商品検索" as searchgoods
     usecase "農家検索" as searchfarmer
-    usecase "ログイン" as login
+    usecase "ログイン,新規登録" as login
+    usecase "売れ筋ランキング" as goodsranking
+    usecase "地域別検索" as searchgoodsLocal
+    usecase "ブランド検索" as searchgoodsBrand
+    usecase "こだわり検索" as searchgoodsFast
 }
 
+rectangle buyer as b{
+    usecase "商品購入" as buy
+    usecase "支払い" as payment
+    usecase "クレジットカード払い" as credit
+    usecase "コンビニ払い" as conveni
+    usecase "農家の評価" as eval
+    usecase "農家のお気に入り" as favo
+    usecase "おすすめの商品表示" as recommend
+    usecase "ポイント付与" as getpoint
 
+
+}
+
+rectangle vender as v{
+    usecase createPages as "商品ページ作成
+    --
+    テンプレートの使用"
+    usecase "商品ページのテンプレート" as template
+
+    usecase "売上推移の表示" as salesTrends
+    usecase "支払い、売上管理" as paymentManagement
+    usecase "在庫管理" as inventoryManagement
+    usecase "評価のフィードバック" as evalFeedback
+    usecase "オンラインビジネスのEラーニング" as elearning
+}
+
+createPages <|... template : <<extends>>
+
+'common
 buyer --|> user
 vender --|> user
+showgoods --- user
+searchfarmer --- user
+searchgoods --- user
+login -- user
+goodsranking --- user
+
+searchgoodsBrand <|--- searchgoods
+searchgoodsFast <|--- searchgoods
+searchgoodsLocal <|--- searchgoods
+
+'buyer
+buy --- buyer
+eval --- buyer
+favo --- buyer
+recommend --- buyer
+payment <|--- credit
+payment <|--- conveni
+payment <|... buy : <<include>>
+getpoint <|... payment : <<include>>
+
+conveniSystem --- conveni
+creditSystem --- credit
+
+
+'vender
+createPages --- vender
+salesTrends --- vender
+paymentManagement --- vender
+evalFeedback --- vender
+elearning --- vender
+inventoryManagement --- vender
 @enduml

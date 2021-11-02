@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="959px" preserveAspectRatio="none" style="width:3555px;height:959px;background:#FFFFFF;" version="1.1" viewBox="0 0 3555 959" width="3555px" zoomAndPan="magnify"><defs><filter height="300%" id="flp9ugel8zygg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b3179ce4f793cc951a1964cbf548eaa1]
+cluster c--><rect fill="#FFFFFF" filter="url(#flp9ugel8zygg)" height="328" style="stroke:#000000;stroke-width:1.5;" width="1167" x="2376" y="352"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="2930" y="368.5332">common</text><!--MD5=[fc729ae40511b638ec1ee6febf041dd5]
+cluster b--><rect fill="#FFFFFF" filter="url(#flp9ugel8zygg)" height="569.5" style="stroke:#000000;stroke-width:1.5;" width="727" x="357" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="701" y="23.5332">buyer</text><!--MD5=[79ba9fe6bd8680a6494d18e09b39dfb5]
+cluster v--><rect fill="#FFFFFF" filter="url(#flp9ugel8zygg)" height="335.5" style="stroke:#000000;stroke-width:1.5;" width="1244" x="1108" y="472"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="1706.5" y="488.5332">vender</text><ellipse cx="2947.8032" cy="406.5087" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="51.3032" ry="15.5087" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="2916.8032" y="411.0253">商品閲覧</text><ellipse cx="2675.8032" cy="648.5087" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="51.3032" ry="15.5087" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="2644.8032" y="653.0253">商品検索</text><ellipse cx="3085.8032" cy="406.5087" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="51.3032" ry="15.5087" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="3054.8032" y="411.0253">農家検索</text><ellipse cx="3253.1887" cy="406.5377" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="80.6887" ry="18.5377" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="3194.5015" y="410.4661">ログイン,新規登録</text><ellipse cx="3448.0785" cy="406.7157" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="79.0785" ry="18.2157" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="3390.6751" y="410.8395">売れ筋ランキング</text><ellipse cx="2800.1463" cy="406.5942" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="61.6463" ry="15.5942" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="2762.1463" y="411.1108">地域別検索</text><ellipse cx="2633.7688" cy="406.6538" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="68.7688" ry="16.1538" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="2588.7688" y="411.1704">ブランド検索</text><ellipse cx="2460.7688" cy="406.6538" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="68.7688" ry="16.1538" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="2415.7688" y="411.1704">こだわり検索</text><ellipse cx="673.8032" cy="540.0087" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="51.3032" ry="15.5087" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="642.8032" y="544.5253">商品購入</text><ellipse cx="803.1838" cy="263.4517" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="41.1838" ry="15.4517" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="782.1838" y="267.1802">支払い</text><ellipse cx="876.8297" cy="540.0659" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="90.8297" ry="20.5659" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="806.8297" y="543.7945">クレジットカード払い</text><ellipse cx="467.7688" cy="540.1538" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="68.7688" ry="16.1538" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="422.7688" y="544.6704">コンビニ払い</text><ellipse cx="435.1463" cy="62.5942" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="61.6463" ry="15.5942" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="397.1463" y="67.1108">農家の評価</text><ellipse cx="611.0785" cy="62.7157" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="79.0785" ry="18.2157" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="553.6751" y="66.8395">農家のお気に入り</text><ellipse cx="809.8478" cy="62.3696" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="84.8478" ry="19.3696" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="746.8478" y="66.0981">おすすめの商品表示</text><ellipse cx="998.7688" cy="62.6538" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="68.7688" ry="16.1538" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="953.7688" y="67.1704">ポイント付与</text><ellipse cx="2239.7662" cy="540.0525" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="95.7662" ry="32.0525" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="2183.2028" y="531.1348">商品ページ作成</text><line style="stroke:#A80036;stroke-width:1.0;" x1="2146.6038" x2="2332.9287" y1="534.211" y2="534.211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="2169.2028" y="552.7442">テンプレートの使用</text><ellipse cx="2233.1901" cy="768.538" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="103.1901" ry="23.038" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="2149.1901" y="772.2665">商品ページのテンプレート</text><ellipse cx="1842.2427" cy="540.1485" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="73.7427" ry="17.1485" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1790.2427" y="544.6651">売上推移の表示</text><ellipse cx="2030.0785" cy="540.2157" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="79.0785" ry="18.2157" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="1972.6751" y="544.3395">支払い、売上管理</text><ellipse cx="1175.8032" cy="540.0087" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="51.3032" ry="15.5087" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1144.8032" y="544.5253">在庫管理</text><ellipse cx="1353.8297" cy="540.0659" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="90.8297" ry="20.5659" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1283.8297" y="543.7945">評価のフィードバック</text><ellipse cx="1607.1055" cy="540.2211" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="126.6055" ry="27.7211" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="1497.6055" y="543.9496">オンラインビジネスのEラーニング</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><ellipse cx="2948" cy="880.5" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M2948,888.5 L2948,915.5 M2935,896.5 L2961,896.5 M2948,915.5 L2935,930.5 M2948,915.5 L2961,930.5 " fill="none" filter="url(#flp9ugel8zygg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="2927" y="950.5332">閲覧者</text><!--MD5=[d775e9e69c0aec49f10a9883b4c314c5]
+entity buyer--><ellipse cx="148" cy="736.5" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M148,744.5 L148,771.5 M135,752.5 L161,752.5 M148,771.5 L135,786.5 M148,771.5 L161,786.5 " fill="none" filter="url(#flp9ugel8zygg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="127" y="806.5332">購入者</text><!--MD5=[7d2adde53bdabb8db43d12fe8cd1030e]
+entity vender--><ellipse cx="1071" cy="736.5" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1071,744.5 L1071,771.5 M1058,752.5 L1084,752.5 M1071,771.5 L1058,786.5 M1071,771.5 L1084,786.5 " fill="none" filter="url(#flp9ugel8zygg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="1050" y="806.5332">販売者</text><!--MD5=[b10afb03911134e60e704614be8daf3a]
+entity creditSystem--><ellipse cx="1177" cy="231.5" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1177,239.5 L1177,266.5 M1164,247.5 L1190,247.5 M1177,266.5 L1164,281.5 M1177,266.5 L1190,281.5 " fill="none" filter="url(#flp9ugel8zygg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1100" y="301.5332">クレジット決済システム</text><!--MD5=[56a515e0c5d03ff642788b87d0f1bec0]
+entity conveniSystem--><ellipse cx="271" cy="231.5" fill="#FEFECE" filter="url(#flp9ugel8zygg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M271,239.5 L271,266.5 M258,247.5 L284,247.5 M271,266.5 L258,281.5 M271,266.5 L284,281.5 " fill="none" filter="url(#flp9ugel8zygg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="201" y="301.5332">コンビニ払いシステム</text><!--MD5=[e8e19605f697b4325d5e0be796390b16]
+reverse link createPages to template--><path d="M2238.42,592.1 C2236.93,640.24 2234.77,710.1 2233.68,745.36 " fill="none" id="createPages-backto-template" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2231.43,591.79,2239.04,572.02,2245.42,592.23,2231.43,591.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="2238" y="653.9951">«extends»</text><!--MD5=[423e4e0b63360417c5cb46725a8f446b]
+link buyer to user--><path d="M169.01,771.15 C277.1,779.62 781.57,818.57 1195,841 C1878.5,878.08 2712.9,904.39 2906.53,910.26 " fill="none" id="buyer-to-user" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2906.91,903.27,2926.69,910.87,2906.48,917.26,2906.91,903.27" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1aa87e7431462f6aec315ac2fbc11973]
+link vender to user--><path d="M1092.36,803.27 C1096.93,808.14 1102.16,812.51 1108,815.5 C1273.18,899.98 2650.12,910.18 2906.87,911.35 " fill="none" id="vender-to-user" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2907.02,904.35,2926.99,911.44,2906.96,918.35,2907.02,904.35" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[231c5e5a847ffed7df82740c5f11c289]
+link showgoods to user--><path d="M2948,422.09 C2948,446.36 2948,496.54 2948,539 C2948,539 2948,539 2948,769.5 C2948,803.64 2948,842.41 2948,870.8 " fill="none" id="showgoods-user" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b77d99bffab5649d34ee0b9765de91e1]
+link searchfarmer to user--><path d="M3079.6,422.17 C3069.76,446.13 3052,495.38 3052,539 C3052,539 3052,539 3052,769.5 C3052,825.11 2999.44,873.42 2969.05,896.71 " fill="none" id="searchfarmer-user" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7fd162835fa7fdf83b1d4b2d3b60b015]
+link searchgoods to user--><path d="M2690.62,663.59 C2735.87,707.16 2873.69,839.92 2926.81,891.09 " fill="none" id="searchgoods-user" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[63eb7d23b577602124a43baf919d85ca]
+link login to user--><path d="M3241.88,425.02 C3227.42,449.52 3204,495.88 3204,539 C3204,539 3204,539 3204,769.5 C3204,876.48 3030.91,903.54 2969.39,909.78 " fill="none" id="login-user" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[89dd5940ba65dfa0c64a3350bec91716]
+link goodsranking to user--><path d="M3432.12,424.26 C3411.46,447.88 3378,493.22 3378,539 C3378,539 3378,539 3378,769.5 C3378,856.67 3055.36,899.37 2969.03,909.24 " fill="none" id="goodsranking-user" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[695393c152699b22c8224638ee62cfef]
+reverse link searchgoodsBrand to searchgoods--><path d="M2640.13,442.55 C2649.48,495.96 2666.89,595.42 2673.43,632.8 " fill="none" id="searchgoodsBrand-backto-searchgoods" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2633.18,443.42,2636.63,422.51,2646.97,441.01,2633.18,443.42" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cac9ea72a8983717c8822a6252d7979f]
+reverse link searchgoodsFast to searchgoods--><path d="M2487.8,437.42 C2534.54,489.59 2629.23,595.3 2663.37,633.4 " fill="none" id="searchgoodsFast-backto-searchgoods" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2482.58,442.08,2474.45,422.51,2493.01,432.74,2482.58,442.08" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fd0ebfedb40a6b36aa334d27baa61304]
+reverse link searchgoodsLocal to searchgoods--><path d="M2783.2,440.03 C2755.89,492.87 2702.99,595.26 2683.47,633.04 " fill="none" id="searchgoodsLocal-backto-searchgoods" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2777.03,436.71,2792.43,422.15,2789.47,443.13,2777.03,436.71" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d1985aeab9a756492dde2217e7c14159]
+link buy to buyer--><path d="M645.72,553.18 C551.83,593.61 251.73,722.83 169.19,758.38 " fill="none" id="buy-buyer" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a1db9c96a42bb662ed22353a57a19826]
+link eval to buyer--><path d="M373.53,63.41 C254.91,64.91 6,76.89 6,151 C6,151 6,151 6,649.5 C6,711.52 87.13,747.2 126.74,760.92 " fill="none" id="eval-buyer" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[37569dc0e7d48c487d6e48717ff192ed]
+link favo to buyer--><path d="M555.01,75.29 C541.62,77.8 527.34,80.22 514,82 C416.55,94.98 77,52.69 77,151 C77,151 77,151 77,649.5 C77,688.47 105.78,725.65 126.7,747.53 " fill="none" id="favo-buyer" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9bc15eea029220f00637675181250faa]
+link recommend to buyer--><path d="M746.7,75.56 C733.91,77.83 720.54,80.09 708,82 C646.02,91.43 148,88.31 148,151 C148,151 148,151 148,649.5 C148,675.21 148,704.07 148,726.81 " fill="none" id="recommend-buyer" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c76509a045e2c1d90726fe2f7fce81f5]
+reverse link payment to credit--><path d="M812.22,298.71 C827.87,356.76 859.15,472.77 871.65,519.16 " fill="none" id="payment-backto-credit" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="805.43,300.39,806.98,279.26,818.94,296.75,805.43,300.39" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4de5249f1a230d7e4016694ef8e1db3b]
+reverse link payment to conveni--><path d="M770.88,290.82 C701.58,347.61 539.92,480.07 485.92,524.31 " fill="none" id="payment-backto-conveni" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="766.48,285.37,786.39,278.11,775.35,296.2,766.48,285.37" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f984437bb1c8c90a81e885cf17be19a9]
+reverse link payment to buy--><path d="M784.72,296.89 C776.84,311.19 767.7,328.29 760,344 C727.6,410.12 693.61,491.28 680.07,524.14 " fill="none" id="payment-backto-buy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="778.86,293.02,794.72,278.97,791.08,299.84,778.86,293.02" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="761" y="411.9951">«include»</text><!--MD5=[7fa62836545e984f92d9d0c5c3e2d752]
+reverse link getpoint to payment--><path d="M969.97,92.97 C927,136.6 848.15,216.66 816.59,248.71 " fill="none" id="getpoint-backto-payment" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="965.25,87.79,984.27,78.46,975.22,97.62,965.25,87.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="921" y="157.4951">«include»</text><!--MD5=[62bc34636a78749b4ad2d45c86c3dfbd]
+link conveniSystem to conveni--><path d="M300.07,305 C344.59,367.04 427.63,482.74 457.2,523.95 " fill="none" id="conveniSystem-conveni" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[85efc6f11cbe8d9d435ca73209ae08fb]
+link creditSystem to credit--><path d="M1132.73,305 C1067.05,365.1 946.33,475.56 897.91,519.87 " fill="none" id="creditSystem-credit" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[54b4fd2893f6c8f2a104b3cb52f1e1a3]
+link createPages to vender--><path d="M2181.65,565.43 C2164.26,572.17 2145.03,579.11 2127,584.5 C1919.16,646.65 1864.73,657.14 1650,688 C1590.24,696.59 1162.34,700.67 1108,727 C1102.17,729.82 1096.83,734 1092.13,738.62 " fill="none" id="createPages-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e7f3ea80c7c0e5f6eada103d5bb4643e]
+link salesTrends to vender--><path d="M1814.78,555.91 C1797.03,565.15 1773.13,576.7 1751,584.5 C1561.93,651.11 1508.05,646.17 1312,688 C1221.72,707.26 1188.57,681.96 1108,727 C1102.35,730.16 1097.09,734.5 1092.41,739.17 " fill="none" id="salesTrends-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e6faef07780150bf54cae241a7ce0ff]
+link paymentManagement to vender--><path d="M1999.18,556.72 C1980.42,565.81 1955.76,576.9 1933,584.5 C1735.46,650.43 1681.46,653.97 1476,688 C1394.87,701.44 1181.39,689.9 1108,727 C1102.22,729.92 1096.9,734.15 1092.2,738.78 " fill="none" id="paymentManagement-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[77b92084946da51ef47af5b9c21dca52]
+link evalFeedback to vender--><path d="M1326.15,559.56 C1279.16,591.4 1182.01,659.56 1108,727 C1102.65,731.87 1097.22,737.42 1092.22,742.82 " fill="none" id="evalFeedback-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[19f065e5a989e3909237607f21c8f5a4]
+link elearning to vender--><path d="M1545.44,564.14 C1468.1,593.19 1331.3,644.48 1214,688 C1166.94,705.46 1149.67,699.01 1108,727 C1102.31,730.82 1096.89,735.7 1092.04,740.73 " fill="none" id="elearning-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8f45c3d449db651f030ff0fffdea1a10]
+link inventoryManagement to vender--><path d="M1169.27,555.51 C1153.52,589.49 1113.78,675.21 1089.94,726.64 " fill="none" id="inventoryManagement-vender" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cf1af2c182e6848f17c17902ee8e1efa]
+@startuml
+:閲覧者: as user
+:購入者: as buyer
+:販売者: as vender
+:クレジット決済システム: as creditSystem
+:コンビニ払いシステム: as conveniSystem
+
+rectangle common as c{
+    usecase "商品閲覧" as showgoods
+    usecase "商品検索" as searchgoods
+    usecase "農家検索" as searchfarmer
+    usecase "ログイン,新規登録" as login
+    usecase "売れ筋ランキング" as goodsranking
+    usecase "地域別検索" as searchgoodsLocal
+    usecase "ブランド検索" as searchgoodsBrand
+    usecase "こだわり検索" as searchgoodsFast
+}
+
+rectangle buyer as b{
+    usecase "商品購入" as buy
+    usecase "支払い" as payment
+    usecase "クレジットカード払い" as credit
+    usecase "コンビニ払い" as conveni
+    usecase "農家の評価" as eval
+    usecase "農家のお気に入り" as favo
+    usecase "おすすめの商品表示" as recommend
+    usecase "ポイント付与" as getpoint
+
+
+}
+
+rectangle vender as v{
+    usecase createPages as "商品ページ作成
+    - -
+    テンプレートの使用"
+    usecase "商品ページのテンプレート" as template
+
+    usecase "売上推移の表示" as salesTrends
+    usecase "支払い、売上管理" as paymentManagement
+    usecase "在庫管理" as inventoryManagement
+    usecase "評価のフィードバック" as evalFeedback
+    usecase "オンラインビジネスのEラーニング" as elearning
+}
+
+createPages <|... template : <<extends>>
+
+'common
+buyer - -|> user
+vender - -|> user
+showgoods - - - user
+searchfarmer - - - user
+searchgoods - - - user
+login - - user
+goodsranking - - - user
+
+searchgoodsBrand <|- - - searchgoods
+searchgoodsFast <|- - - searchgoods
+searchgoodsLocal <|- - - searchgoods
+
+'buyer
+buy - - - buyer
+eval - - - buyer
+favo - - - buyer
+recommend - - - buyer
+payment <|- - - credit
+payment <|- - - conveni
+payment <|... buy : <<include>>
+getpoint <|... payment : <<include>>
+
+conveniSystem - - - conveni
+creditSystem - - - credit
+
+
+'vender
+createPages - - - vender
+salesTrends - - - vender
+paymentManagement - - - vender
+evalFeedback - - - vender
+elearning - - - vender
+inventoryManagement - - - vender
+@enduml
+
+@startuml
+:閲覧者: as user
+:購入者: as buyer
+:販売者: as vender
+:クレジット決済システム: as creditSystem
+:コンビニ払いシステム: as conveniSystem
+
+rectangle common as c{
+    usecase "商品閲覧" as showgoods
+    usecase "商品検索" as searchgoods
+    usecase "農家検索" as searchfarmer
+    usecase "ログイン,新規登録" as login
+    usecase "売れ筋ランキング" as goodsranking
+    usecase "地域別検索" as searchgoodsLocal
+    usecase "ブランド検索" as searchgoodsBrand
+    usecase "こだわり検索" as searchgoodsFast
+}
+
+rectangle buyer as b{
+    usecase "商品購入" as buy
+    usecase "支払い" as payment
+    usecase "クレジットカード払い" as credit
+    usecase "コンビニ払い" as conveni
+    usecase "農家の評価" as eval
+    usecase "農家のお気に入り" as favo
+    usecase "おすすめの商品表示" as recommend
+    usecase "ポイント付与" as getpoint
+
+
+}
+
+rectangle vender as v{
+    usecase createPages as "商品ページ作成
+    - -
+    テンプレートの使用"
+    usecase "商品ページのテンプレート" as template
+
+    usecase "売上推移の表示" as salesTrends
+    usecase "支払い、売上管理" as paymentManagement
+    usecase "在庫管理" as inventoryManagement
+    usecase "評価のフィードバック" as evalFeedback
+    usecase "オンラインビジネスのEラーニング" as elearning
+}
+
+createPages <|... template : <<extends>>
+
+buyer - -|> user
+vender - -|> user
+showgoods - - - user
+searchfarmer - - - user
+searchgoods - - - user
+login - - user
+goodsranking - - - user
+
+searchgoodsBrand <|- - - searchgoods
+searchgoodsFast <|- - - searchgoods
+searchgoodsLocal <|- - - searchgoods
+
+buy - - - buyer
+eval - - - buyer
+favo - - - buyer
+recommend - - - buyer
+payment <|- - - credit
+payment <|- - - conveni
+payment <|... buy : <<include>>
+getpoint <|... payment : <<include>>
+
+conveniSystem - - - conveni
+creditSystem - - - credit
+
+
+createPages - - - vender
+salesTrends - - - vender
+paymentManagement - - - vender
+evalFeedback - - - vender
+elearning - - - vender
+inventoryManagement - - - vender
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 21:40:07 JST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
