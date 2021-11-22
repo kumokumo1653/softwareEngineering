@@ -4,34 +4,53 @@
 :販売者: as vender
 :クレジット決済システム: as creditSystem
 :コンビニ払いシステム: as conveniSystem
+:倉庫管理システム: as warehouseSystem
 
 rectangle common as c{
     usecase "商品閲覧" as showgoods
-    usecase "商品検索" as searchgoods
-    usecase "農家検索" as searchfarmer
+    usecase searchgoods as "商品検索
+    --
+    extension points
+    こだわりまたはブランドによる
+    絞り込み検索"
+    usecase searchfarmer as "農家検索
+    --
+    extension point
+    地域(都道府県市町村)
+    からの絞り込み検索"
     usecase "ログイン,新規登録" as login
     usecase "売れ筋ランキング" as goodsranking
-    usecase "地域別検索" as searchgoodsLocal
+    usecase "地域別検索" as searchfarmerLocal
     usecase "ブランド検索" as searchgoodsBrand
     usecase "こだわり検索" as searchgoodsFast
 }
 
 rectangle buyer as b{
     usecase "商品購入" as buy
-    usecase "支払い" as payment
+    usecase payment as "支払い
+    --
+    extension point
+    支払額の一部(全て)を\nポイントで支払う"
     usecase "クレジットカード払い" as credit
     usecase "コンビニ払い" as conveni
     usecase "農家の評価" as eval
     usecase "農家のお気に入り" as favo
     usecase "おすすめの商品表示" as recommend
     usecase "ポイント付与" as getpoint
-
+    usecase "ポイント使用" as usepoint
+    note top of (getpoint)
+        支払額の1%をポイントとして付与
+    end note
+    note top of (usepoint)
+        1ポイント=1円として使用
+    end note
 
 }
 
 rectangle vender as v{
     usecase createPages as "商品ページ作成
     --
+    extension point
     テンプレートの使用"
     usecase "商品ページのテンプレート" as template
 
@@ -42,31 +61,31 @@ rectangle vender as v{
     usecase "オンラインビジネスのEラーニング" as elearning
 }
 
-createPages <|... template : <<extends>>
+createPages <... template : <<extends>>
 
 'common
 buyer --|> user
-vender --|> user
+user <|-- vender
 showgoods --- user
 searchfarmer --- user
 searchgoods --- user
 login -- user
 goodsranking --- user
 
-searchgoodsBrand <|--- searchgoods
-searchgoodsFast <|--- searchgoods
-searchgoodsLocal <|--- searchgoods
+searchfarmerLocal ---> searchfarmer
+searchgoodsBrand ---> searchgoods
+searchgoodsFast ---> searchgoods
 
 'buyer
 buy --- buyer
 eval --- buyer
 favo --- buyer
-recommend --- buyer
+recommend -- buyer
 payment <|--- credit
 payment <|--- conveni
-payment <|... buy : <<include>>
-getpoint <|... payment : <<include>>
-
+payment <... buy : <<include>>
+getpoint <... payment : <<include>>
+usepoint ...> payment : <<extends>>
 conveniSystem --- conveni
 creditSystem --- credit
 
@@ -78,4 +97,5 @@ paymentManagement --- vender
 evalFeedback --- vender
 elearning --- vender
 inventoryManagement --- vender
+warehouseSystem -- inventoryManagement
 @enduml
